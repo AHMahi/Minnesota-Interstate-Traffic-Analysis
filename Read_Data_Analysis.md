@@ -60,4 +60,4 @@ No additional lookup tables were used for this project.
 <img width="1864" height="815" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/ba511397-b33d-4fe0-83d8-33c3acd277b5" />
 
 🔗 **View Live Dashboard on Tableau Public:**  
-[https://public.tableau.com/views/MN_Traffic_Dashboard/Overview](https://public.tableau.com/authoring/HighwaytrafficconditionsforinfrastructureDevelopment/Dashboard1#1)
+[Live Tableau Public Dashboard](https://public.tableau.com/views/HighwaytrafficconditionsforinfrastructureDevelopment/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
