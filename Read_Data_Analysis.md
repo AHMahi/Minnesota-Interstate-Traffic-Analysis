@@ -16,9 +16,7 @@
 | Holiday Lookup         | Included in dataset (`holiday` column)            | No external lookup required; common holidays already tagged.         |
 | Weather Details        | Included in dataset (e.g., `temp`, `clouds_all`)  | Weather metrics directly available; no merging from external sources. |
 
-RAW `.csv` files are in `/data/`. No additional lookup tables were used.
-
-The raw .csv file is stored in the /data/ folder.
+RAW `.csv` files are in `/Datasets/`.
 
 No additional lookup tables were used for this project.
 
@@ -55,6 +53,8 @@ No additional lookup tables were used for this project.
 | **Yearly/Hourly Trend** | Volume peaked at ~2 – 3 million vehicles/week pre‑2018, with sharp decline mid‑2018 |
 | **Weather vs Traffic** | Clear/cloudy conditions correlated with high volume; smoke and squall days saw significant drops |
 | **Holiday Impact** | New Year holidays had the highest traffic peaks; Thanksgiving and Labor Day followed |
+
+---
 
 ## Dashboard Screenshots
 <img width="1864" height="815" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/ba511397-b33d-4fe0-83d8-33c3acd277b5" />
