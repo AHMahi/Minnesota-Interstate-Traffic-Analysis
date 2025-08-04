@@ -1,26 +1,26 @@
 # Minnesota Interstate Traffic Volume – Tableau Dashboard
 
-**Interactive analysis of hourly traffic volumes in the MN DOT dataset, exploring patterns over time, weather, and holidays.**
-
----
-
 ## Project Overview
 
 - **What**: Tableau Dashboard analyzing interstate traffic volumes across year → month → day → hour, weather, and holiday influences.  
-- **Why**: To support transportation planning in Minnesota—help authorities forecast traffic, improve infrastructure decisions, and manage congestion periods.  
-- **How**: Tableau Prep (optional) or Tableau Desktop used to clean & model data. Dashboard built using calculated fields, Date‑time hierarchies, filters, and Story points. 
+- **Why**: To help Minnesota transportation authorities forecast traffic, plan highway work, and manage congestion.
+- **How**: Excel & Tableau used to clean & model data. Dashboard built using calculated fields, Date‑time hierarchies, filters, and Story points. 
 
 ---
 
 ## Data Sources
 
-| Data Type | Source | Notes |
-|-----------|--------|-------|
-| Traffic counts | Metro_Interstate_Traffic_Volume.csv (MnDOT) | Hourly traffic data 2012–2018 with `holiday_flag` |
-| Weather | NOAA historical weather / open source weather API | Merged manually or in Prep with traffic |
-| (Optional) Holiday lookup | U.S. calendar APIs or manual CSV | For date tags like “New Year”, “Thanksgiving” |
+| Data Type              | Source                                             | Notes                                                                 |
+|------------------------|----------------------------------------------------|-----------------------------------------------------------------------|
+| Traffic & Weather Data | Metro_Interstate_Traffic_Volume.csv (UCI / MnDOT) | Combined dataset (2012–2018) with hourly traffic, weather, and holiday tags. |
+| Holiday Lookup         | Included in dataset (`holiday` column)            | No external lookup required; common holidays already tagged.         |
+| Weather Details        | Included in dataset (e.g., `temp`, `clouds_all`)  | Weather metrics directly available; no merging from external sources. |
 
-RAW `.csv` files are in `/data/`. Any lookup tables go in `/bin/`.
+RAW `.csv` files are in `/data/`. No additional lookup tables were used.
+
+The raw .csv file is stored in the /data/ folder.
+
+No additional lookup tables were used for this project.
 
 ---
 
@@ -38,12 +38,12 @@ RAW `.csv` files are in `/data/`. Any lookup tables go in `/bin/`.
 
 ---
 
-## Implementation Pipeline
+## Implementation Process/Steps
 
 1. **Import CSVs** into Tableau Desktop.  
-2. Clean and transform (via Tableau Prep or data pane):
-   - Remove nulls/outliers, filter out incomplete months  
-   - Create `Date Hierarchy` using `DATEPART()` functions  
+2. Clean and transform data (via Tableau Prep & data pane):
+   - Removed nulls/outliers, filtered out incomplete months  
+   - Created `Date Hierarchy` using `DATEPART()` functions  
    - Flag holidays via `IF [date] IN (…) THEN “New Year”, etc.`  
 3. Create dashboards:
    - Sheet 1: **Traffic volume trend** (Year → Month → Day → Hour hierarchy)  
