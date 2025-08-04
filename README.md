@@ -4,7 +4,7 @@
 
 ---
 
-## 🧭 Project Overview
+## Project Overview
 
 - **What**: Tableau Dashboard analyzing interstate traffic volumes across year → month → day → hour, weather, and holiday influences.  
 - **Why**: To support transportation planning in Minnesota—help authorities forecast traffic, improve infrastructure decisions, and manage congestion periods.  
@@ -12,7 +12,7 @@
 
 ---
 
-## 📁 Data Sources
+## Data Sources
 
 | Data Type | Source | Notes |
 |-----------|--------|-------|
@@ -24,7 +24,7 @@ RAW `.csv` files are in `/data/`. Any lookup tables go in `/bin/`.
 
 ---
 
-## 🧠 Business Problem & Key Questions
+## Business Problem & Key Questions
 
 1. How do traffic volumes trend across years down to the hour?  
 2. Is traffic volume influenced by weather (e.g. smoke, clear, cloudy)?  
@@ -38,7 +38,7 @@ RAW `.csv` files are in `/data/`. Any lookup tables go in `/bin/`.
 
 ---
 
-## 🛠️ Implementation Pipeline
+## Implementation Pipeline
 
 1. **Import CSVs** into Tableau Desktop.  
 2. Clean and transform (via Tableau Prep or data pane):
@@ -55,7 +55,6 @@ RAW `.csv` files are in `/data/`. Any lookup tables go in `/bin/`.
 
 ---
 
-## 🖼️ Dashboard Sketches
-
-Place your screenshots here. Example:
+## Dashboard Screenshots
+<img width="1864" height="815" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/ba511397-b33d-4fe0-83d8-33c3acd277b5" />
 
