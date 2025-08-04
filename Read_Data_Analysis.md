@@ -30,12 +30,6 @@ No additional lookup tables were used for this project.
 2. Is traffic volume influenced by weather (e.g. smoke, clear, cloudy)?  
 3. Which holidays consistently show peak traffic volumes?  
 
-| Question | Findings |
-|----------|----------|
-| **Yearly/Hourly Trend** | Volume peaked at ~2 – 3 million vehicles/week pre‑2018, with sharp decline mid‑2018 |
-| **Weather vs Traffic** | Clear/cloudy conditions correlated with high volume; smoke and squall days saw significant drops |
-| **Holiday Impact** | New Year holidays had the highest traffic peaks; Thanksgiving and Labor Day followed |
-
 ---
 
 ## Implementation Process/Steps
@@ -55,6 +49,15 @@ No additional lookup tables were used for this project.
 
 ---
 
+## Findings
+| Question | Findings |
+|----------|----------|
+| **Yearly/Hourly Trend** | Volume peaked at ~2 – 3 million vehicles/week pre‑2018, with sharp decline mid‑2018 |
+| **Weather vs Traffic** | Clear/cloudy conditions correlated with high volume; smoke and squall days saw significant drops |
+| **Holiday Impact** | New Year holidays had the highest traffic peaks; Thanksgiving and Labor Day followed |
+
 ## Dashboard Screenshots
 <img width="1864" height="815" alt="Dashboard 1 (2)" src="https://github.com/user-attachments/assets/ba511397-b33d-4fe0-83d8-33c3acd277b5" />
 
+🔗 **View Live Dashboard on Tableau Public:**  
+[https://public.tableau.com/views/MN_Traffic_Dashboard/Overview](https://public.tableau.com/authoring/HighwaytrafficconditionsforinfrastructureDevelopment/Dashboard1#1)
