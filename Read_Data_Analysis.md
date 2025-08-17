@@ -50,7 +50,7 @@ No additional lookup tables were used for this project.
 ## Findings
 | Question | Findings |
 |----------|----------|
-| **Yearly/Hourly Trend** | Volume peaked at ~2 – 3 million vehicles/week pre‑2018, with sharp decline mid‑2018 |
+| **Yearly/Hourly Trend** | Dashboard contains a line chart and an hourly heatmap showing both yearly and hourly trends |
 | **Weather vs Traffic** | Clear/cloudy conditions correlated with high volume; smoke and squall days saw significant drops |
 | **Holiday Impact** | New Year holidays had the highest traffic peaks; Thanksgiving and Labor Day followed |
 
